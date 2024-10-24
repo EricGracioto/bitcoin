@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body{
+    margin: 0;
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Fjalla One', cursive;
+}
+
+.profile{
+    height: 500;
+    width: 500;
+}
+
+#inicio{
+    background: linear-gradient(rgb(255, 221, 177), rgb(255, 255, 255));
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 80%;
+    z-index: 9;
+}
+
+#nome{
+    font-size: 50px;
+    font-family: 'Fjalla One', cursive;
+    background-color: rgb(236, 200, 159);
+    padding-left: 20;
+    padding-right: 20;
+    padding-top: 10;
+    padding-bottom: 10;
+}
+
+#valor{
+    font-size: 30px;
+    font-family: 'Fjalla One', cursive; 
+    background-color: rgb(236, 200, 159);
+    
+}
+
+#valores{
+    font-size: 30px;
+    font-family: 'Fjalla One', cursive; 
+    background-color: antiquewhite;
+    
+}
+
+
+h2{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Fjalla One', cursive;
+}
+
+#sobre{
+    font-family: 'Fjalla One', cursive;
+    padding: 50px;
+
+}
+
+.line{
+    height: 6px;
+    background-color: antiquewhite  ;
+    width: 8px auto;
+}
+
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.myNavbar{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: 'Fjalla One', cursive;
+}
+
+.links:hover{
+    font-size: 25px;
+    animation: infinite;
+}
+
+.navbar-brand{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: 'Fjalla One', cursive;
+}
+
+#contato{
+    background: antiquewhite;
+}
+
+#contato iframe{
+    width: 100%;
+}
+
+.contato2 h3{
+    display: inline;
+    padding-bottom: 20px;
+}                                                   
